@@ -6,11 +6,11 @@ OLD_NAME="CATHERINE"
 CORRECT_NAME="CATHY"
 EMAIL="catherine.kg@cabotsolutions.com"
 
-if [ "$GIT_COMMITTER_EMAIL" = "$OLD_NAME" ]
+if [ "$GIT_COMMITTER_EMAIL" = "$EMAIL" ]
 then
     export GIT_COMMITTER_NAME="$CORRECT_NAME"
 fi
-if [ "$GIT_AUTHOR_EMAIL" = "$OLD_NAME" ]
+if [ "$GIT_AUTHOR_EMAIL" = "$EMAIL" ]
 then
     export GIT_AUTHOR_NAME="$CORRECT_NAME"
 fi
