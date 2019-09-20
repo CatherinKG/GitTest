@@ -3,7 +3,7 @@
 git filter-branch --env-filter '
 
 OLD_NAME="CATHERINE"
-CORRECT_NAME="CATHY"
+CORRECT_NAME="CATHY555"
 EMAIL="catherine.kg@cabotsolutions.com"
 
 if [ "$GIT_COMMITTER_EMAIL" = "$EMAIL" ]
